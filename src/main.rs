@@ -3,7 +3,7 @@ use rand::seq::IndexedRandom;
 fn main() {
     println!("Hello, world!");
     let mut sentence = generate_random_words();
-    for n in 1..101 {
+    for _ in 1..101 {
         println!("{}", sentence);
         sentence = generate_random_words();
     }
